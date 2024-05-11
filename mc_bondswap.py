@@ -2,9 +2,6 @@ import numpy as np
 import copy
 from lammps import lammps
 
-
-# from mpi4py import MPI
-
 def find_item(mylist, char):
     for sub_list in mylist:
         if char in sub_list:
